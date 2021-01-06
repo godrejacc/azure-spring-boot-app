@@ -18,7 +18,7 @@ import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+//@SpringBootTest
 @WebMvcTest(HelloController.class)
 public class HelloControllerTest {
 
